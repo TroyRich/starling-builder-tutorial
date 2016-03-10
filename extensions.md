@@ -1,12 +1,8 @@
 # 如何构建自定义主题、自定义组件SWF文件
 
-### 使用工具：Flash Builder4.7
-
 一、创建ActionScript项目。
 
 ![](https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/cn/images/extensions/01.png)
-
-!(https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/master/images/extensions/01.png)
 
 下载代码，如果有Git客户端从Git上copy项目代码
 git clone https://github.com/mindjolt/starling-builder-extensions --recursive

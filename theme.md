@@ -57,7 +57,11 @@ Swf文件主要给编辑器使用，作者已经给大家好构建的用到的bu
 2. 修改TestGameMobileTheme.as，因为继承关系所以同样要去掉构造函数的themeMediator参数，图片参照上面的
 
 3. 在项目初始化代码中添加扩展主题，只需一行代码
+
+```
 new TestGameMobileTheme(false);
+```
+
 如图：
 
 ![](https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/cn/images/theme/13.png)

@@ -38,6 +38,7 @@ Swf文件主要给编辑器使用，作者已经给大家好构建的用到的bu
 
 修改代码
 单单复制代码和资源还不行的，还需要做些小改动
+
 1. 修改BaseTestGameMobileTheme.as将 BaseTestGameMobileTheme extends UIEditorTheme
 改成：BaseTestGameMobileTheme extends StyleNameFunctionTheme。去掉构造函数的themeMediator参数
 

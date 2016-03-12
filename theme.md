@@ -39,7 +39,7 @@ Swf文件主要给编辑器使用，作者已经给大家好构建的用到的bu
 修改代码
 单单复制代码和资源还不行的，还需要做些小改动
 
-1. 修改BaseTestGameMobileTheme.as将 BaseTestGameMobileTheme extends UIEditorTheme
+1、修改BaseTestGameMobileTheme.as将 BaseTestGameMobileTheme extends UIEditorTheme
 改成：BaseTestGameMobileTheme extends StyleNameFunctionTheme。去掉构造函数的themeMediator参数
 
 改之前
@@ -54,9 +54,9 @@ Swf文件主要给编辑器使用，作者已经给大家好构建的用到的bu
 
 ![](https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/cn/images/theme/12.png)
 
-2. 修改TestGameMobileTheme.as，因为继承关系所以同样要去掉构造函数的themeMediator参数，图片参照上面的
+2、修改TestGameMobileTheme.as，因为继承关系所以同样要去掉构造函数的themeMediator参数，图片参照上面的
 
-3. 在项目初始化代码中添加扩展主题，只需一行代码
+3、在项目初始化代码中添加扩展主题，只需一行代码
 
 ```
 new TestGameMobileTheme(false);

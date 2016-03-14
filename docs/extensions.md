@@ -1,12 +1,13 @@
-# Starling Builder教程扩展篇（一、环境准备）
+# Starling Builder Extensions Tutorial (1. Environment Setup)
 
-工具 Flash Builder、Git客户端
+Tools: Flash Builder, Source Tree
 
-Git客户端SourceTree下载地址：https://www.sourcetreeapp.com/
+Git client SourceTree download link：https://www.sourcetreeapp.com/
 
-扩展项目源代码：https://github.com/mindjolt/starling-builder-extensions 
+Starling Builder Extensions repo：https://github.com/mindjolt/starling-builder-extensions 
 
-一、首先Fork作者的扩展项目源代码到自己的githut账户项目中，在本地创建仓库复制源代码，复制完后再在这个目录下创建ActionScript项目，如图。
+1. Fork the original extension repository to your own github account, then clone the repository, and then create an ActionScript project in the cloned directory.
+Image as below:
 
 ![](https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/cn/images/extensions/01.png)
 
@@ -14,8 +15,10 @@ Git客户端SourceTree下载地址：https://www.sourcetreeapp.com/
 
 ![](https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/cn/images/extensions/03.png)
 
-二、配置项目
-设置项目的主源文件夹，以及其他用到源文件夹；导入项目需要的swc库；设置test/src/Main.as为默认应用程序。（如果有Main.xml报错, 可能是AIRSDK版本不一致）
+2. Setup the project
+
+Setup the main source folder and other source folders, library path as bellow. Then set tests/src/Main.as as Default application.
+(If there's an error in Main.xml, then you need to make sure the AIRSDK version is 19+)
 
 ![](https://raw.githubusercontent.com/yuhengh/starling-builder-tutorial/cn/images/extensions/04.png)
 

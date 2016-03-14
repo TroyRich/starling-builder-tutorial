@@ -1,7 +1,9 @@
 # Starling Builder教程扩展篇（一、环境准备）
 
 工具 Flash Builder、Git客户端
-Git客户端下载地址：https://www.sourcetreeapp.com/
+
+Git客户端SourceTree下载地址：https://www.sourcetreeapp.com/
+
 扩展项目源代码：https://github.com/mindjolt/starling-builder-extensions 
 
 一、首先Fork作者的扩展项目源代码到自己的githut账户项目中，在本地创建仓库复制源代码，复制完后再在这个目录下创建ActionScript项目，如图。

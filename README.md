@@ -3,6 +3,8 @@
 #### Author: yishigulang
 #### IDE: Flash Builder4.7
 
+[Starling Builder Tutorial (How to use the editor)](https://github.com/yuhengh/starling-builder-tutorial/blob/master/docs/editor.md)
+
 [Starling Builder Extensions Tutorial (1. Environment Setup)](https://github.com/yuhengh/starling-builder-tutorial/blob/master/docs/extensions.md)
 
 [Starling Builder Extensions Tutorial (2. Extend Feathers Theme)](https://github.com/yuhengh/starling-builder-tutorial/blob/master/docs/theme.md)
